@@ -31,7 +31,7 @@ def turn(board)
     input = gets.chomp
     input = input_to_index(input)
     truth = valid_move?(board,input)
-    until tr(uth
+    until truth
         turn(board)
     end
     move(board,input)
